@@ -1,0 +1,219 @@
+client:
+  name: basic
+  file-system: device-agnostic
+tools: {}
+targets:
+  "PackageStructure": ["<PackageStructure>"]
+  "YYText-arm64-apple-macosx15.0-debug.module": ["<YYText-arm64-apple-macosx15.0-debug.module>"]
+  "main": ["<YYText-arm64-apple-macosx15.0-debug.module>"]
+  "test": ["<YYText-arm64-apple-macosx15.0-debug.module>"]
+default: "main"
+nodes:
+  "/Users/bytedance/Applications/yytext/YYText/YYText/":
+    is-directory-structure: true
+    content-exclusion-patterns: [".git",".build"]
+commands:
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSAttributedString+YYText.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/NSAttributedString+YYText.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSAttributedString+YYText.m.o"]
+    description: "Compiling YYText NSAttributedString+YYText.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSAttributedString+YYText.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/NSAttributedString+YYText.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSAttributedString+YYText.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSAttributedString+YYText.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSParagraphStyle+YYText.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/NSParagraphStyle+YYText.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSParagraphStyle+YYText.m.o"]
+    description: "Compiling YYText NSParagraphStyle+YYText.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSParagraphStyle+YYText.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/NSParagraphStyle+YYText.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSParagraphStyle+YYText.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSParagraphStyle+YYText.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIPasteboard+YYText.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/UIPasteboard+YYText.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIPasteboard+YYText.m.o"]
+    description: "Compiling YYText UIPasteboard+YYText.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIPasteboard+YYText.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/UIPasteboard+YYText.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIPasteboard+YYText.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIPasteboard+YYText.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIView+YYText.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/UIView+YYText.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIView+YYText.m.o"]
+    description: "Compiling YYText UIView+YYText.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIView+YYText.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/UIView+YYText.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIView+YYText.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIView+YYText.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYLabel.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYLabel.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYLabel.m.o"]
+    description: "Compiling YYText YYLabel.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYLabel.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYLabel.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYLabel.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYLabel.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextArchiver.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextArchiver.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextArchiver.m.o"]
+    description: "Compiling YYText YYTextArchiver.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextArchiver.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextArchiver.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextArchiver.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextArchiver.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAsyncLayer.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextAsyncLayer.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAsyncLayer.m.o"]
+    description: "Compiling YYText YYTextAsyncLayer.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAsyncLayer.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextAsyncLayer.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAsyncLayer.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAsyncLayer.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAttribute.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextAttribute.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAttribute.m.o"]
+    description: "Compiling YYText YYTextAttribute.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAttribute.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextAttribute.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAttribute.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAttribute.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextContainerView.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextContainerView.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextContainerView.m.o"]
+    description: "Compiling YYText YYTextContainerView.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextContainerView.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextContainerView.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextContainerView.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextContainerView.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextDebugOption.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextDebugOption.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextDebugOption.m.o"]
+    description: "Compiling YYText YYTextDebugOption.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextDebugOption.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextDebugOption.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextDebugOption.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextDebugOption.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextEffectWindow.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextEffectWindow.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextEffectWindow.m.o"]
+    description: "Compiling YYText YYTextEffectWindow.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextEffectWindow.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextEffectWindow.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextEffectWindow.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextEffectWindow.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextInput.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextInput.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextInput.m.o"]
+    description: "Compiling YYText YYTextInput.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextInput.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextInput.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextInput.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextInput.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextKeyboardManager.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextKeyboardManager.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextKeyboardManager.m.o"]
+    description: "Compiling YYText YYTextKeyboardManager.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextKeyboardManager.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextKeyboardManager.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextKeyboardManager.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextKeyboardManager.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLayout.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextLayout.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLayout.m.o"]
+    description: "Compiling YYText YYTextLayout.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLayout.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextLayout.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLayout.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLayout.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLine.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextLine.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLine.m.o"]
+    description: "Compiling YYText YYTextLine.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLine.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextLine.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLine.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLine.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextMagnifier.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextMagnifier.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextMagnifier.m.o"]
+    description: "Compiling YYText YYTextMagnifier.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextMagnifier.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextMagnifier.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextMagnifier.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextMagnifier.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextParser.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextParser.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextParser.m.o"]
+    description: "Compiling YYText YYTextParser.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextParser.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextParser.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextParser.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextParser.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRubyAnnotation.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextRubyAnnotation.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRubyAnnotation.m.o"]
+    description: "Compiling YYText YYTextRubyAnnotation.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRubyAnnotation.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextRubyAnnotation.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRubyAnnotation.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRubyAnnotation.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRunDelegate.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextRunDelegate.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRunDelegate.m.o"]
+    description: "Compiling YYText YYTextRunDelegate.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRunDelegate.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextRunDelegate.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRunDelegate.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRunDelegate.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextSelectionView.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextSelectionView.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextSelectionView.m.o"]
+    description: "Compiling YYText YYTextSelectionView.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextSelectionView.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextSelectionView.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextSelectionView.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextSelectionView.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextTransaction.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextTransaction.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextTransaction.m.o"]
+    description: "Compiling YYText YYTextTransaction.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextTransaction.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextTransaction.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextTransaction.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextTransaction.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextUtilities.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextUtilities.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextUtilities.m.o"]
+    description: "Compiling YYText YYTextUtilities.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextUtilities.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextUtilities.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextUtilities.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextUtilities.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextView.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextView.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextView.m.o"]
+    description: "Compiling YYText YYTextView.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextView.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextView.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextView.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextView.m.d"
+
+  "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextWeakProxy.m.o":
+    tool: clang
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/YYTextWeakProxy.m"]
+    outputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextWeakProxy.m.o"]
+    description: "Compiling YYText YYTextWeakProxy.m"
+    args: ["/Applications/Xcode-16.1.0.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang","-fobjc-arc","-target","arm64-apple-macosx10.13","-O0","-DSWIFT_PACKAGE=1","-DDEBUG=1","-fblocks","-index-store-path","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/index/store","-fmodules","-fmodule-name=YYText","-fmodules-cache-path=/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/ModuleCache","-I","/Users/bytedance/Applications/yytext/YYText/YYText/include","-isysroot","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX15.1.sdk","-F","/Applications/Xcode-16.1.0.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks","-fPIC","-g","-MD","-MT","dependencies","-MF","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextWeakProxy.m.d","-c","/Users/bytedance/Applications/yytext/YYText/YYText/YYTextWeakProxy.m","-o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextWeakProxy.m.o"]
+    deps: "/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextWeakProxy.m.d"
+
+  "<YYText-arm64-apple-macosx15.0-debug.module>":
+    tool: phony
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSAttributedString+YYText.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/NSParagraphStyle+YYText.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIPasteboard+YYText.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/UIView+YYText.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYLabel.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextArchiver.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAsyncLayer.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextAttribute.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextContainerView.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextDebugOption.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextEffectWindow.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextInput.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextKeyboardManager.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLayout.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextLine.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextMagnifier.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextParser.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRubyAnnotation.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextRunDelegate.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextSelectionView.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextTransaction.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextUtilities.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextView.m.o","/Users/bytedance/Applications/yytext/YYText/.build/arm64-apple-macosx/debug/YYText.build/YYTextWeakProxy.m.o"]
+    outputs: ["<YYText-arm64-apple-macosx15.0-debug.module>"]
+
+  "PackageStructure":
+    tool: package-structure-tool
+    inputs: ["/Users/bytedance/Applications/yytext/YYText/YYText/","/Users/bytedance/Applications/yytext/YYText/Package.swift","/Users/bytedance/Applications/yytext/YYText/Package.resolved"]
+    outputs: ["<PackageStructure>"]
+    description: "Planning build"
+    allow-missing-inputs: true
+

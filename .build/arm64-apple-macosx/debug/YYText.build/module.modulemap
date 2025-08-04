@@ -1,0 +1,4 @@
+module YYText {
+    umbrella "/Users/bytedance/Applications/yytext/YYText/YYText/include"
+    export *
+}
